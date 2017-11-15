@@ -1,0 +1,25 @@
+<html>
+<head>
+    <style>
+        #canvas {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas" width="800" height="500"></canvas>
+    <label>Play with</label>
+    <select id="myChar">
+        <option value="x">X</option>
+        <option value="o">O</option>
+    </select>
+    <button onclick="startNewGame()">New game</button>
+    <img id="xchar1" src="img/xchar1.png" style="display: none">
+    <img id="xchar2" src="img/xchar2.png" style="display: none">
+    <img id="xchar3" src="img/xchar3.png" style="display: none">
+    <img id="ochar1" src="img/ochar1.png" style="display: none">
+    <img id="ochar2" src="img/ochar2.png" style="display: none">
+    <img id="ochar3" src="img/ochar3.png" style="display: none">
+    <script src="tic-tac-toe.js" type="application/javascript"></script>
+</body>
+</html>
